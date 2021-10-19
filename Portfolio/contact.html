@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrei Buliga - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="loading()">
+    <div class="loader">
+      <img src="images/logoo.png" alt="" />
+    </div>
+    <nav class="nav">
+      <div class="nav--left">
+        <a href="index.html" class="nav--left__links">Home</a>
+        <hr class="nav--left__divider" />
+        <a href="projects.html" class="nav--left__links">Projects</a>
+      </div>
+      <div class="nav--middle">
+        <a href="index.html" class="homepage">
+          <img
+            src="images/logoo.png"
+            alt="Image of the logo"
+            class="nav--middle__image"
+        /></a>
+      </div>
+
+      <div class="nav--right">
+        <a href="about.html" class="nav--right__links">About</a>
+        <hr class="nav--left__divider" />
+        <a href="contact.html" class="nav--right__links">Contact</a>
+      </div>
+    </nav>
+
+    <section class="contact">
+      <div class="contact__left">
+        <div class="contact__left__container1">
+          <h2 class="contact__left__heading">Send me a message.</h2>
+          <p class="contact__left__paragraph">
+            Please fill out the form below.
+          </p>
+        </div>
+        <div class="contact__left__container2">
+          <form action="#">
+            <label class="contact__left__label">Name</label>
+            <input type="text" class="contact__left__half" />
+            <input type="text" class="contact__left__half" />
+            <label class="contact__left__label">Email</label>
+            <input type="text" class="contact__left__full" />
+            <label class="contact__left__label">Message</label>
+            <input type="text" class="contact__left__full message" />
+          </form>
+        </div>
+        <button class="contact__left__button">Submit</button>
+      </div>
+      <div class="contact__right"></div>
+    </section>
+
+    <footer class="footer">
+      <img src="images/logoo.png" alt="" class="footer__logo" />
+      <div class="footer__links">
+        <a href="index.html" class="footer__links__link">Home</a>
+        <a href="projects.html" class="footer__links__link">Projects</a>
+        <a href="about.html" class="footer__links__link">About</a>
+        <a href="contact.html" class="footer__links__link">Contact</a>
+      </div>
+      <p class="footer__copyright">© 2021</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
